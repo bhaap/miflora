@@ -1,11 +1,3 @@
-""""
-Read data from Mi Flora plant sensor.
-
-Reading from the sensor is handled by the command line tool "gatttool" that
-is part of bluez on Linux.
-No other operating systems are supported at the moment
-"""
-
 import sys
 from datetime import datetime, timedelta
 from threading import Lock, current_thread
